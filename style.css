@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* // ``````````````````````````` Header `````````````````````````````````// */
+body{
+  background-image:url(/Images/P-3\ Background.png);
+background-color: white;
+}
+.navbar-brand {
+  width: 80px;
+}
+
+.navbar-title {
+color: gray;
+}
+.enter{
+  color:black;
+  text-align: center;
+}
+.name{
+  background-color:lightgray;
+  border-radius: 8px;
+  width: 250px;
+  height: 30px;
+  box-shadow: 0 3px #b1b5b2
+}
+.submit{
+  background-color:#1c913b;
+  color: white;
+  width: 250px;
+  height: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 3px #d2d9d4
+}
+.submit:hover{
+  transition: 0.8s;
+}
+.pcaptcha{
+  color:#7c7e80 ;
+}
+.form{
+  background-color: white;
+  border: 1px solid #b1b5b2;
+  border-radius: 50px;
+  box-shadow: 0 3px  #b1b5b2;
+}
+.captcha{
+  background-color:lightgray;
+  border-radius: 8px;
+  width: 100px;
+  height: 30px;
+  box-shadow: 0 3px #b1b5b2
+}
+#image{
+  width: 100px;
+  font-weight: 400;
+  user-select: none;
+  text-decoration:line-through;
+  font-style: italic;
+  font-size: x-large;
+  margin-left: 10px;
+}
